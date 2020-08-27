@@ -5,7 +5,6 @@
              x:Class="FontXam.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
         <Label Text="안녕하세요(기본)"  FontSize="20"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
