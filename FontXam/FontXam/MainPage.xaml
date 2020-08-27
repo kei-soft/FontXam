@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FontXam"
+             x:Class="FontXam.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="안녕하세요(기본)"  FontSize="20"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Label Text="안녕하세요(BoldFont)" 
+           HorizontalOptions="Center" FontSize="20"
+               FontFamily="BoldFont"
+           VerticalOptions="CenterAndExpand" />
+        <Label Text="안녕하세요(MediumFont)" 
+           HorizontalOptions="Center" FontSize="20"
+               FontFamily="MediumFont"
+           VerticalOptions="CenterAndExpand" />
+        <Label Text="안녕하세요(RegularFont)" 
+           HorizontalOptions="Center" FontSize="20"
+               FontFamily="RegularFont"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
